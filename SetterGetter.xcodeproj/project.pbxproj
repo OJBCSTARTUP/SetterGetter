@@ -13,6 +13,7 @@
 		0CE931881E6FB20A00737890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE931861E6FB20A00737890 /* Main.storyboard */; };
 		0CE9318A1E6FB20A00737890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CE931891E6FB20A00737890 /* Assets.xcassets */; };
 		0CE9318D1E6FB20A00737890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE9318B1E6FB20A00737890 /* LaunchScreen.storyboard */; };
+		0CE931961E6FB32900737890 /* Vicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE931951E6FB32900737890 /* Vicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0CE931891E6FB20A00737890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CE9318C1E6FB20A00737890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CE9318E1E6FB20A00737890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CE931941E6FB32900737890 /* Vicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vicle.h; sourceTree = "<group>"; };
+		0CE931951E6FB32900737890 /* Vicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				0CE9318B1E6FB20A00737890 /* LaunchScreen.storyboard */,
 				0CE9318E1E6FB20A00737890 /* Info.plist */,
 				0CE9317D1E6FB20A00737890 /* Supporting Files */,
+				0CE931941E6FB32900737890 /* Vicle.h */,
+				0CE931951E6FB32900737890 /* Vicle.m */,
 			);
 			path = SetterGetter;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CE931851E6FB20A00737890 /* ViewController.m in Sources */,
+				0CE931961E6FB32900737890 /* Vicle.m in Sources */,
 				0CE931821E6FB20A00737890 /* AppDelegate.m in Sources */,
 				0CE9317F1E6FB20A00737890 /* main.m in Sources */,
 			);
